@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Mono:regular,italic,700,700italic);;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+  font-family: 'Space-Mono', sans-serif !important; 
+}
+@media (max-width: 780px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 640px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+body {
+  padding: 10px 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
